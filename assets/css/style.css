@@ -44,6 +44,11 @@ h2 {
   margin-bottom: 2rem;
 }
 
+#book{
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
 /* Buttons */
 
 .custom-button-filled {
@@ -68,6 +73,16 @@ h2 {
   background-color: var(--highlight-color);
   color: white;
 }
+
+#custom-filled-button {
+  border: 2px solid var(--highlight-color-light);
+  background-color: var(--highlight-color-light);
+  color: white;
+  border-radius: 0;
+  
+  
+}
+
 
 /* Navbar */
 
@@ -164,6 +179,12 @@ h2 {
    /* Make all service cards the same height for consistency */
   #services .card-body {
     min-height: 191px;
+  }
+
+  #custom-filled-button .table {
+    display: flex;
+    justify-content: center;
+    color: red;
   }
  }
 
